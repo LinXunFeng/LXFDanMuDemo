@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="YcI-Zk-w9T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="73P-sY-uhU"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbg-eu-dUK" customClass="LXFDanMuView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YcI-Zk-w9T" secondAttribute="trailing" id="2zF-ll-TK3"/>
+                            <constraint firstItem="fbg-eu-dUK" firstAttribute="bottom" secondItem="YcI-Zk-w9T" secondAttribute="bottom" id="PSW-md-QAF"/>
+                            <constraint firstItem="fbg-eu-dUK" firstAttribute="trailing" secondItem="YcI-Zk-w9T" secondAttribute="trailing" id="Rf4-Ql-BFZ"/>
+                            <constraint firstItem="fbg-eu-dUK" firstAttribute="top" secondItem="YcI-Zk-w9T" secondAttribute="top" id="Y1C-b6-pCC"/>
+                            <constraint firstItem="fbg-eu-dUK" firstAttribute="leading" secondItem="YcI-Zk-w9T" secondAttribute="leading" id="dOU-df-WUN"/>
+                            <constraint firstItem="YcI-Zk-w9T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gBu-9y-jgy"/>
+                            <constraint firstItem="YcI-Zk-w9T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gcL-c5-xvS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="danMuView" destination="fbg-eu-dUK" id="Wua-M5-LMG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="961" height="641"/>
+    </resources>
+</document>

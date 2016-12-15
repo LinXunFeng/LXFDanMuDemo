@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>emotions</key>
+		<array>
+			<string>001</string>
+			<string>002</string>
+			<string>003</string>
+		</array>
+		<key>username</key>
+		<string>路人甲</string>
+		<key>text</key>
+		<string>很好听</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>emotions</key>
+		<array>
+			<string>002</string>
+			<string>003</string>
+		</array>
+		<key>username</key>
+		<string>路人乙</string>
+		<key>text</key>
+		<string>我超喜欢耶</string>
+		<key>type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>emotions</key>
+		<array>
+			<string>001</string>
+			<string>003</string>
+		</array>
+		<key>username</key>
+		<string>路人丙</string>
+		<key>text</key>
+		<string>everybody 嗨起来！！</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>emotions</key>
+		<array>
+			<string>001</string>
+			<string>002</string>
+			<string>003</string>
+		</array>
+		<key>username</key>
+		<string>路人丁</string>
+		<key>text</key>
+		<string>路人丁到此一游</string>
+		<key>type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>emotions</key>
+		<array>
+			<string>003</string>
+		</array>
+		<key>username</key>
+		<string>路人戊</string>
+		<key>text</key>
+		<string>值得分享</string>
+		<key>type</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>
